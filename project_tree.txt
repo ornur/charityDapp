@@ -1,0 +1,139 @@
+C:.
+|   .env
+|   .eslintrc.js
+|   .gitignore
+|   hardhat.config.js
+|   next-env.d.ts
+|   next.config.js
+|   package.json
+|   postcss.config.js
+|   project_tree.txt
+|   renovate.json
+|   tailwind.config.js
+|   tsconfig.json
+|   yarn.lock
+|   
++---artifacts
+|   +---@openzeppelin
+|   |   \---contracts
+|   |       +---access
+|   |       |   +---AccessControl.sol
+|   |       |   |       AccessControl.dbg.json
+|   |       |   |       AccessControl.json
+|   |       |   |       
+|   |       |   +---IAccessControl.sol
+|   |       |   |       IAccessControl.dbg.json
+|   |       |   |       IAccessControl.json
+|   |       |   |       
+|   |       |   \---Ownable.sol
+|   |       |           Ownable.dbg.json
+|   |       |           Ownable.json
+|   |       |           
+|   |       \---utils
+|   |           +---Context.sol
+|   |           |       Context.dbg.json
+|   |           |       Context.json
+|   |           |       
+|   |           +---Counters.sol
+|   |           |       Counters.dbg.json
+|   |           |       Counters.json
+|   |           |       
+|   |           +---introspection
+|   |           |   +---ERC165.sol
+|   |           |   |       ERC165.dbg.json
+|   |           |   |       ERC165.json
+|   |           |   |       
+|   |           |   \---IERC165.sol
+|   |           |           IERC165.dbg.json
+|   |           |           IERC165.json
+|   |           |           
+|   |           +---math
+|   |           |   +---Math.sol
+|   |           |   |       Math.dbg.json
+|   |           |   |       Math.json
+|   |           |   |       
+|   |           |   \---SignedMath.sol
+|   |           |           SignedMath.dbg.json
+|   |           |           SignedMath.json
+|   |           |           
+|   |           \---Strings.sol
+|   |                   Strings.dbg.json
+|   |                   Strings.json
+|   |                   
+|   +---build-info
+|   |       d5aead25a9b563472d6f4de64ab528b8.json
+|   |       
+|   \---contracts
+|       \---DappFund.sol
+|               DappFund.dbg.json
+|               DappFund.json
+|               
++---cache
+|       solidity-files-cache.json
+|       
++---components
+|       Ban.tsx
+|       Banner.tsx
+|       Cards.tsx
+|       ConnectBtn.tsx
+|       Delete.tsx
+|       Details.tsx
+|       Donation.tsx
+|       Donor.tsx
+|       Footer.tsx
+|       Header.tsx
+|       NavBtn.tsx
+|       Payment.tsx
+|       Quote.tsx
+|       Start.tsx
+|       Supports.tsx
+|       
++---contracts
+|       contractAddress.json
+|       DappFund.sol
++---pages
+|   |   index.tsx
+|   |   projects.tsx
+|   |   _app.tsx
+|   |   
+|   +---api
+|   |   \---auth
+|   |           [...nextauth].js
+|   |           
+|   \---donations
+|       |   create.tsx
+|       |   [id].tsx
+|       |   
+|       \---edit
+|               [id].tsx
+|               
++---scripts
+|       deploy.js
+|       seed.js
+|       
++---services
+|       blockchain.tsx
+|       provider.tsx
+|       
++---store
+|   |   globalSlices.ts
+|   |   index.ts
+|   |   
+|   +---actions
+|   |       globalActions.ts
+|   |       
+|   \---states
+|           globalStates.ts
+|           
++---styles
+|       global.css
+|       Home.module.css
+|       
++---test
+|       DappFund.test.js
+|       
+\---utils
+        fakeData.ts
+        helper.ts
+        type.dt.ts
+        
